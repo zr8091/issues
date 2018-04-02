@@ -3,5 +3,4 @@
 
 ### 加入我们？
 
-可以在此 issue 下留言：https://github.com/vim-china/hello-vim/issues/3
-
+可以在此 issue 下留言：https://github.com/vim-china/issues/issues/1
