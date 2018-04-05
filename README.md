@@ -13,6 +13,11 @@
 4. 收录一些国人开发的Vim插件
 5. 整理常用 Vim 插件的配置技巧
 
+你可以做的事情：
+
+1. 选择一个你熟悉的 Vim 插件，书写一份该插件的使用教程及技巧。提交至 [plugins-tutorial](https://github.com/vim-china/plugins-tutorial) 仓库；
+2. 推荐一些不错的国人开发的插件至 [awesome-vimers](https://github.com/vim-china/awesome-vimers) 仓库；
+
 ### 加入我们？
 
 可以在此 issue 下留言：https://github.com/vim-china/issues/issues/1
