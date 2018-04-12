@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>vim-jp - issues</title>
+		<title>vim-china - issues</title>
 		<meta charset="utf-8"/>
 		<link href='http://fonts.googleapis.com/css?family=Prosto One' rel='stylesheet' type='text/css'/>
 		<link rel="stylesheet" type="text/css" href="styles.css"/>
@@ -18,7 +18,7 @@
 
 		<div id="content">
 			<section class="issues active-issues">
-				<h1>Active Issues</h1>
+				<h1>正在讨论的问题</h1>
 				<script src="githubapi.js" data-api="repos/vim-china/issues/issues?sort=updated;state=open;direction=desc">
 					<div class="issues">
 					<% for (var i = 0, it; (it = data[i]); i++) { %>
@@ -32,7 +32,7 @@
 					</div>
 				</script>
 			</section>
-			<section class="issues fixed-issues">
+			<section class="已完结问题">
 				<h1>Fixed Issues</h1>
 				<script src="githubapi.js" data-api="repos/vim-china/issues/issues?sort=updated;state=closed;direction=desc">
 					<div class="issues">
@@ -50,7 +50,7 @@
 		</div>
 
 		<footer id="global-footer">
-			<p class="powered">This site is based on <a href="http://cho45.github.com/tasscss">cho45/tasscss</a></p>
+			<p class="powered">这一网站基于 <a href="http://cho45.github.com/tasscss">cho45/tasscss</a></p>
 		</footer>
 	</body>
 </html>
