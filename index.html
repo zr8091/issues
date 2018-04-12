@@ -18,7 +18,7 @@
 
 		<div id="content">
 			<section class="issues active-issues">
-				<h1>正在讨论的问题</h1>
+				<h1>正在讨论的问题：</h1>
 				<script src="githubapi.js" data-api="repos/vim-china/issues/issues?sort=updated;state=open;direction=desc">
 					<div class="issues">
 					<% for (var i = 0, it; (it = data[i]); i++) { %>
@@ -32,8 +32,8 @@
 					</div>
 				</script>
 			</section>
-			<section class="已完结问题">
-				<h1>Fixed Issues</h1>
+			<section class="issues fixed-issues">
+				<h1>已完结问题列表：</h1>
 				<script src="githubapi.js" data-api="repos/vim-china/issues/issues?sort=updated;state=closed;direction=desc">
 					<div class="issues">
 					<% for (var i = 0, it; (it = data[i]); i++) { %>
