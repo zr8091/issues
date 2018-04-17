@@ -19,6 +19,7 @@
 2. 推荐一些不错的国人开发的插件至 [awesome-vimers](https://github.com/vim-china/awesome-vimers) 仓库；
 3. 协助完善 vim 实用教程：[hello-vim](https://github.com/vim-china/hello-vim)；
 4. 整理 Vim patch 信息：[vim-patch-index](https://github.com/vim-china/vim-patch-index)；
+5. 帮助完善 Vim 脚本语法规范 [vim-script-style-guide](https://github.com/vim-china/vim-script-style-guide)
 
 ## 加入我们？
 
